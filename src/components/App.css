@@ -1,0 +1,31 @@
+.m-bottom {
+  margin-bottom: 1rem !important;
+}
+
+.m-top-l {
+  margin-top: 2rem !important;
+}
+
+/* .btn-success {
+  width: min-content;
+} */
+
+.delete-btn:hover {
+  color: rgb(243, 115, 115);
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start ;
+  background-color: #efefef;
+  padding: 4px;
+  border-radius: 8px;
+  transition-timing-function: ease-in-out;
+  transition: 0.4s;
+}
+
+.list:hover {
+  background-color: #dad9d9;
+}
